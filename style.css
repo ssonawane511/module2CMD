@@ -1,0 +1,152 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav {
+  flex: 1;
+}
+
+.icons .fa {
+  margin: 0px 10px;
+  color: #007bff;
+  cursor: pointer;
+}
+.header a{
+  color: #22262a ;
+}
+
+.header a:hover{
+  color: #007bff;
+}
+.icons .fa:hover {
+  transform: scale(1.2);
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-text {
+  padding-left: 100px;
+  padding-top: 400px;
+  padding-bottom: 100px;
+}
+
+.banner-text h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.banner-text h6 {
+    font-size:18px;
+    font-weight: medium;
+}
+.banner__btn{
+    margin-top: 20px;
+}
+
+.banner__btn .btn {
+    background-color: #22262a;
+    color:white;
+}
+.m-70{
+    margin: 70px 0px;
+}
+
+.product img {
+    width:100%;
+    object-fit: cover;
+    margin-bottom:38px;
+} 
+.product p{
+    padding:0px;
+    margin: 0px;
+    margin-top: 2px 0px;
+    font-size:15px;
+
+}
+.title{
+    margin-bottom:70px;
+}
+
+.title h3{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.title p{
+    font-size:15px;
+    font-weight:regular;
+}
+
+
+.img-style-1 {
+  max-width: 400px;
+  max-height:500px;
+  position: relative;
+  top: -50px;
+}
+
+.img-style-2{
+  float: right;
+  position: relative;
+  top: -120px;
+  z-index: 1;
+  border:20px solid white;
+
+}
+
+.footer{
+  background-color:#F2F8FC ;
+  padding:70px 0px;
+}
+
+.m-20{
+  margin: 20px 0px;
+}
+
+.footer-col p{
+  font-size:20px
+}
+
+.footer-col ul {
+  list-style-type: none;
+}
+
+.price{
+  color:rgb(0, 223, 0);
+  margin:0px 20px;
+  
+}
+@media (max-width: 768px){
+  .banner-text h1 {
+    font-size:40px;
+  }
+  .banner-text{
+    padding-top: 200px;
+  }
+  .img img{
+    width: 100%;
+  }
+
+  .img-style-1{
+    display:none;
+  }
+  .img-style-2{
+    display:none;
+  }
+  .footer .col-md-7{
+    margin-top:20px;
+  }
+}
